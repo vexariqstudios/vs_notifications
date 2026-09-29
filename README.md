@@ -13,8 +13,6 @@ ensure vs_notifications
 
 3. Restart the server, or run `ensure vs_notifications` in the server console.
 
-Other VEXARIQ scripts (garage, fuel, ambulance, and the rest) use this automatically once it is started. They fall back to ox_lib, QB, or ESX only if this resource is not running.
-
 ## Use
 
 From a client script:
